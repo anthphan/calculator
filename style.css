@@ -55,6 +55,20 @@ body {
   background-color: lightgray;
 }
 
-.yellow {
+.operator {
   background-color: orange;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.pressed-operator {
+  background-color: white;
+  color: orange;
+  transition: all 0.5s;
+}
+
+.pressed-number {
+  transition: 1s linear all;
 }
